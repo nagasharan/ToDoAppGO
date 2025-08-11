@@ -12,7 +12,10 @@ func main() {
 	//Slice is a variable size but array is fixed size
 	var listOfItems = []string{taskOne, taskTwo, taskThree, taskFour}
 	fmt.Println("###Hello, Welcome to ToDoList app!!!###")
+	printAll(listOfItems)
+}
 
+func printAll(listOfItems []string) {
 	fmt.Println("*List of all Todos*")
 
 	for index, item := range listOfItems {
