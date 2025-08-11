@@ -13,6 +13,10 @@ func main() {
 	var listOfItems = []string{taskOne, taskTwo, taskThree, taskFour}
 	fmt.Println("###Hello, Welcome to ToDoList app!!!###")
 	printAll(listOfItems)
+	fmt.Println()
+	listOfItems = addTask(listOfItems, "Go for run")
+	fmt.Println()
+	printAll(listOfItems)
 }
 
 func printAll(listOfItems []string) {
@@ -22,4 +26,9 @@ func printAll(listOfItems []string) {
 		//fmt.Println(index+1, ". "+item)
 		fmt.Printf("%d. %s\n", index+1, item)
 	}
+}
+
+func addTask(listOfItems []string, newTask string) []string {
+	listOfItems = append(listOfItems, newTask)
+	return listOfItems
 }
