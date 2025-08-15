@@ -1,2 +1,2 @@
 # ToDoAppGO
-Learning the Golang by creating a simple ToDoApp
+Brushing up the Golang fundamentals by creating a simple ToDoApp for my interview preparation.
