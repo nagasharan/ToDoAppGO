@@ -23,6 +23,7 @@ func main() {
 	//Slice is a variable size but array is fixed size
 	//var listOfItems = []string{taskOne, taskTwo, taskThree, taskFour}
 	fmt.Println("###Hello, Welcome to ToDoList app!!!###")
+	fmt.Printf("test")
 	//printAll(listOfItems)
 	//fmt.Println()
 	//listOfItems = addTask(listOfItems, "Go for run")
